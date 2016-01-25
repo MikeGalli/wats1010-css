@@ -1,6 +1,90 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {
+  background-image: url('images/sand.jpg');
+  font-family: serif;
+}
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+header.page-header {
+/*   background: lightcyan; */
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+.page-header h1 {
+  margin-bottom: 0;
+}
+
+.page-header p {
+  margin-top: 0;
+}
+
+aside.more-info {
+/*   background: lightsalmon; */
+}
+aside.more-info img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 0;
+}
+aside.more-info {
+  text-align: center;
+}
+
+ul.info-links {
+/*   background: lightseagreen; */
+  margin: 0;
+  text-align: left;
+  float: left;
+}
+ul.social-links {
+/*   background: lightgreen; */
+  text-align: left;
+  margin: 0;
+  margin-left: 15rem;
+}
+section#content {
+/*   background: lightgoldenrodyellow; */
+  clear: both;
+  padding: 10 px;
+  margin: 50px;
+  background-color: #ffffff;
+  border: 1px solid rgb(140, 87, 7);
+  background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.2);
+}
+footer.page-footer {
+/*   background: lightgray; */
+}
+
+.poem {
+  list-style-type: none;
+  text-indent: -1em;
+  padding-left: 2em;
+}
+.poem li {
+  font-size: large;
+  line-height: 1.4;
+}
+
+.citation {
+  margin-bottom: 0;
+  font-size: small;
+}
+
+footer.content-footer {
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+}
+
+footer.page-footer ul {
+/*   background: lightgray; */
+  margin-top: 0;
+  font-size: small;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 90px;
 }
